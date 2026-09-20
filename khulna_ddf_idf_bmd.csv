@@ -1,0 +1,21 @@
+# Rainfall Depth-Duration-Frequency and Intensity-Duration-Frequency data,,,,,,,
+# Station: Khulna, Bangladesh,,,,,,
+# Raw data source: Bangladesh Meteorological Department (BMD), annual max daily rainfall 1948-2010 (62 yr),,,,,,
+# Analysis: Gumbel Type-I EV1 + Sherman equation disaggregation (best fit, RMSE = 0.094),,,,,,
+# Reference: Sheonty, S.R. & Islam, G.M.T. (2020)," ""Establishment of Rainfall Intensity-Duration-",,,,
+"#   Frequency Curves of Khulna""", Proc. ICCESD 2020, KUET, Khulna. Paper WRE-4374.,,,,
+#   https://iccesd.kuet.ac.bd/2020/Papers/WRE-4374.pdf,,,,,,,
+# NOTE: durations below ~3 hr are disaggregated from daily data, not directly gauged.,,,,,,
+#,,,,,,,
+# Block 1: RAINFALL DEPTH (mm),,,,,,,
+duration_min,T2,T5,T10,T20,T30,T50,T100
+15,22.4,41.3,54.5,67.6,75.2,84.7,97.7
+30,29.1,52,67.9,83.4,92.5,103.8,119.3
+60,37.7,65.5,84.5,103,113.7,127.2,145.5
+90,43.9,74.9,96,116.5,128.4,143.3,163.5
+120,49,82.4,105.2,127.2,139.9,155.9,177.6
+180,57,94.3,119.5,143.9,158,175.6,199.5
+300,69.1,111.8,140.4,168.1,184,204,231.1
+360,74,118.8,148.7,177.7,194.4,215.2,243.5
+720,96.1,149.5,185.1,219.4,239.1,263.8,297.1
+1440,124.7,188.3,230.4,270.9,294.2,323.3,362.6
